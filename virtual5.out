@@ -1,0 +1,12 @@
+D:
+size: 1040 bytes
+  vTable[0]: 0x400a36	ClassB mon
+  vTable[1]: 0x400a1e	ClassB tue
+  vTable[2]: 0x400a06	ClassA wed
+  vTable[3]: 0x400aaa	ClassD fri (0x1000)
+
+  vTable2 = 0x400d60
+  vTable2[0]: 0x400a88	ClassC mon (0x1000)
+  vTable2[1]: 0x4009ee	ClassA tue
+  vTable2[2]: 0x400a06	ClassA wed
+  vTable2[3]: 0x400a66	ClassC thu (0x1000)

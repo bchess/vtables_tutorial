@@ -1,0 +1,33 @@
+a: 0x118a1010
+b: 0x118a1118
+c: 0x118a1010
+
+Using C-style cast (c->a and c->b)
+a: 0x118a1010
+b: 0x118a1118
+c: 0x118a1010
+
+Using C-style cast (c->a and a->b)
+a: 0x118a1010
+b: 0x118a1010
+c: 0x118a1010
+
+Using reinterpret-style cast (c->a and c->b)
+a: 0x118a1010
+b: 0x118a1010
+c: 0x118a1010
+
+Using reinterpret-style cast (c->a and a->b)
+a: 0x118a1010
+b: 0x118a1010
+c: 0x118a1010
+
+Using static-style cast
+a: 0x118a1010
+b: invalid static_cast from type 'ClassA*' to type 'ClassB*'
+c: 0x118a1010
+
+Using dynamic-style cast
+a: 0x118a1010
+b: 0x118a1118
+c: 0x118a1010

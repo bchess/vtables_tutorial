@@ -1,0 +1,12 @@
+A:
+  vTable[0]: 0x4009ac	ClassA mon
+  vTable[1]: 0x400994	ClassA tue
+  vTable[2]: 0x40097c	ClassA wed
+C:
+  vTable[0]: 0x4009fa	ClassC mon (0x1000)
+  vTable[1]: 0x400994	ClassA tue
+  vTable[2]: 0x40097c	ClassA wed
+
+  vTable2[0]: 0x4009f4	ClassC mon (0xff8)
+  vTable2[1]: 0x4009c4	ClassB tue
+  vTable2[2]: 0
